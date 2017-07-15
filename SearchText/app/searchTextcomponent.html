@@ -1,0 +1,29 @@
+﻿<div class="row form-group">
+    <div class="col-md-3">Text:</div>
+    <div class="col-md-3">
+        <textarea class="form-control" name="txtSearchText" ng-model="Text"></textarea>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<div class="row form-group">
+    <div class="col-md-3">SubText:</div>
+    <div class="col-md-3">
+        <input class="form-control" type="text" name="txtSubText" ng-model="SubText" />
+    </div>
+    <div class="col-md-3"></div>
+</div>
+<div class="row form-group">
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+        <button class="btn btn-info" ng-click="searchText()">Search</button>
+    </div>
+    <div class="col-md-6"></div>
+</div>
+
+<div class="row form-group">
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+        {{Output}}
+    </div>
+    <div class="col-md-6"></div>
+</div>
